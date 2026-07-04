@@ -1,0 +1,163 @@
+
+*{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+body{
+
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  margin: 0px;
+}
+.parent{
+  
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 20px;
+
+
+}
+.card{
+  height: 250px;
+  width: 200px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+
+}
+.top{
+  display: flex;
+  justify-content:space-between;
+  
+  padding: 10px;
+}
+
+.logo{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+}
+
+.top button{
+  height: 19px;
+  width: 48px;
+  font-size: 9px;
+  color: #666666cc;
+  font-weight: bolder;
+  background-color: #ffffff;
+  border: 1px solid #ccccccac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 8px;
+  gap: 2px;
+  border-radius: 4px;
+}
+.divider{
+  height: 1px;
+  width: 90%;
+  background-color: #cccccc60;
+  margin: 25px 10px 0px 10px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  gap:7px;
+  margin: 10px;
+  
+}
+
+.body .name{
+  font-weight: 550;
+  font-size: 14px;
+  color: #333333f8;
+  margin: 4px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: baseline;
+}
+.body .name .updatetime{
+  font-weight: 400;
+  font-size: 7px;
+  color: #666666f8;
+ 
+}
+.body .position{
+  font-weight: bold;
+  font-size: 14px;
+  color: #111111;
+  margin: 0px 4px;
+}
+
+.body .btn{
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  margin: 4px 4px 4px 4px;
+
+}
+
+.body .btn button{
+
+  height: 20px;
+ border:none;
+ border-radius: 4px;
+  font-size: 8px;
+  
+}
+
+.bottom{
+  margin: 8px 10px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  
+  
+}
+
+.bottom .price{
+  font-weight: bold;
+  font-size: 14px;
+  color: #111111;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.bottom .price .location{
+  font-weight: 400;
+  font-size: 9px;
+  color: #666666f8;
+  
+}
+.bottom .apply{
+  height: 20px;
+ 
+  font-size: 9px;
+  color: #ffffff;
+  
+  background-color: #000000;
+  border: none;
+  padding: 4px;
+  
+
+  border-radius: 4px;
+
+}
