@@ -1,0 +1,31 @@
+
+body{
+  background-color: rgb(1, 1, 51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+h1{
+  color: white;
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.46);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin: 2px;
+  background-color: rgba(128, 128, 128, 0.46);
+ 
+}
